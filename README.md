@@ -20,7 +20,10 @@ Program needs 2 inputs :
 2 - Name to save the Qr as
 
 
+## Terminal 
+
 ![Usage Example](TermSS.jpeg)
 
 
+## QR Example
 ![QR Example](My-Website.jpeg)
