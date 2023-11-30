@@ -35,8 +35,7 @@ try:
     
     where_qr = subprocess.check_output("pwd", shell=True, text=True)
    
-    print(f"""\n Creation : {save_name}
-          Location : {where_qr} """)
+    print(f"""\n Creation : {save_name} \n\nLocation : {where_qr} """)
 
     time.sleep(1)
     print("QR Created | Process Successful ✔\n")
