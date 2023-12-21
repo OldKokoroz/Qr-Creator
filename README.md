@@ -16,7 +16,7 @@ Program needs 2 inputs :
 
 2 - Name to save the Qr as
 
---- At the end, program shows where the file is saved.
+--- At the end, program shows where the file is saved ---
 
 
 ## Terminal 
