@@ -1,13 +1,10 @@
 # Qr-Creator
 
-## Clone
+## Install
 
     git clone https://github.com/OldKokoroz/Qr-Creator.git
 
-
-## Requirements
-
-    pip install -r requirements.txt
+    pip install qrcode
 
 
 ## Usage 
