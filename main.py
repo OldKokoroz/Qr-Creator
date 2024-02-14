@@ -4,7 +4,7 @@ import qrcode
 
 try:
 
-    print("================================================================")
+    print("====================================================================")
     time.sleep(1)
     while True:
         value_of_qr = str(input("\nThing to direct from the Qr : "))
@@ -35,12 +35,12 @@ try:
     
     where_qr = subprocess.check_output("pwd", shell=True, text=True)
    
-    print(f"""\n Creation : {save_name} \n\nLocation : {where_qr} """)
+    print(f"""\nCreation : {save_name} \n\n        Location : {where_qr} """)
 
     time.sleep(1)
     print("QR Created | Process Successful ✔\n")
 
-    print("================================================================")
+    print("====================================================================")
 
 except KeyboardInterrupt:
     print("Exiting the Program...")
