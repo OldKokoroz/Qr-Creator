@@ -4,6 +4,7 @@ import qrcode
 
 try:
 
+    print("================================================================")
     time.sleep(1)
     while True:
         value_of_qr = str(input("\nThing to direct from the Qr : "))
@@ -39,6 +40,7 @@ try:
     time.sleep(1)
     print("QR Created | Process Successful ✔\n")
 
+    print("================================================================")
 
 except KeyboardInterrupt:
     print("Exiting the Program...")
