@@ -1,6 +1,6 @@
+import subprocess
+import time
 import qrcode
-import time, subprocess
-from subprocess import PIPE
 
 try:
 
@@ -19,7 +19,6 @@ try:
             break
         else:    
             print("\n       Invalid Input")
-
 
     qr = qrcode.QRCode(
         version=1, 
@@ -43,3 +42,5 @@ try:
 
 except KeyboardInterrupt:
     print("Exiting the Program...")
+    exit()
+    
